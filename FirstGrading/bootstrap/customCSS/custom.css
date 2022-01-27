@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:1% auto;
+    color: rgb(111, 105, 195);
+    border:2px solid rgb(0,0,0);
+    width:90%;
+}
+body{
+    display:block;
+    background-color: rgb(46, 46, 46);
+}
+.main{
+    font-style: italic;
+}
+.container{
+    border: 2px solid rgb(158, 0, 0);
+}
+li{
+    font-style: normal;
+    width:auto;
+    padding:auto;
+    border-radius:auto;
+    text-align: center;
+    border:none;
+    background
+}
+li:hover{
+    background-color: yellow;
+}
+ul{
+    padding: 0;
+    display: flex;
+}
+.sub{
+    display: flex;
+}
+section {
+    margin-left: 0;
+    width: 65%;
+}
+aside {
+    margin-right: 0;
+    width: 33%;
+}
