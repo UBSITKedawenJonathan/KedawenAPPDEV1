@@ -1,33 +1,18 @@
 body {
-
     box-sizing: content-box;
-
 }
-
 .col {
-
     border: 1px solid black;
-
 }
-
 .row {
-
     height: 100px;
-
 }
-
 @media (min-width: 576px) {
-
     body {
-
         background-color: green;
-
     }
-
 }
-
 @media (min-width: 768px) {
-
     body {
 
         background-color: blue;
