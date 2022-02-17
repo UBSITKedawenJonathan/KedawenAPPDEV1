@@ -1,0 +1,109 @@
+body{
+    box-sizing:content-box;
+}
+.row-12{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+    margin-bottom: 1%
+}
+
+.col{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: RED;
+    width: 100%;
+}
+
+.col-12{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: YELLOW;
+    padding: 5px;
+    margin-bottom: 1%;
+}
+
+.col-4{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: white;
+    margin-right: 1%;
+}
+
+.col-6{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: white;
+    margin-right: 1%;
+    padding: 40px;
+}
+.col-big{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: white;
+    width: 100%;
+    height: 600px;
+}
+.col-3{
+    margin-top: 2%;
+    border-style: solid;
+    border-color: white;
+    margin-right: 3%;
+    padding: 80px;
+    display: flex;
+    width: auto;
+}
+.col-8{
+    margin-top: 1%;
+    margin-left: 3%;
+    border-style: solid;
+    border-color: white;
+    margin-right: 1%;
+    padding: 80px;
+    float: left;
+}
+/*
+.col-7{
+    margin-top: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+    float:left;
+    padding: 40px;
+}
+.col-5{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: solid;
+    border-color: black;
+    float:right;
+    padding: 40px;
+}*/
+
+@media (min-width: 100px) {
+    body {
+        background: orange;
+    }
+}
+@media (min-width: 576px) {
+    body {
+        background-color: green;
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-color: yellow;
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        background-color: BLUE;
+    }
+}
+@media (min-width: 1400px) {
+    body {
+        background-color: grey;
+    }
+}

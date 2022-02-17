@@ -1,9 +1,28 @@
-body {
-    box-sizing: content-box;
+body{
+    box-sizing:content-box;
 }
 .col{
-    margin-top:1%;
-    border-style:solid;
+    margin-top: 1%;
+    border-style: solid;
+    border-color: white;
+    padding: 50px;
+    width: 100%;
+
+}
+.col-4{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: white;
+    margin-right: 1%;
+    padding: 50px;
+
+}
+.col-12{
+    margin-top: 1%;
+    border-style: solid;
+    border-color: white;
+    margin-right: 1%;
+    padding: 50px;
 
 }
 @media (min-width: 100px) {
