@@ -21,6 +21,19 @@
    * Constants
    * ------------------------------------------------------------------------
    */
+   var toastTrigger = document.getElementById('liveToastBtn')
+   var toastLiveExample = document.getElementById('liveToast')
+   if (toastTrigger) {
+     toastTrigger.addEventListener('click', function () {
+       var toast = new bootstrap.Toast(toastLiveExample)
+   
+       toast.show()
+     })
+   }
+   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
   const NODE_TEXT = 3;
   const SelectorEngine = {
     find(selector, element = document.documentElement) {
