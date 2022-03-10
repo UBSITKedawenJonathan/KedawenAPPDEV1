@@ -1,19 +1,21 @@
+<!--component 1 app-navi-->
 <app-navi></app-navi>
+<!--three column layout-->
 <div class="container-fluid">
   <div class="row g-2">
     <div class="col-3">
-      <div class="p-3 border">
-        <app-course-list></app-course-list>
-      </div>
-      <!-- add course info-->
-      <div class="p-6">
-        <div class="p-3 border">
-          Custom Column Padding
-        </div>
-      </div>
-      <!-- add articles-->
-      <div class="p-3">
-        <div class="p-3 border">Custom Column Padding</div></div>
+    <!--component 2 app-course-list-->
+      <div class="p-3"><app-course-list></app-course-list></div>
+    </div>
+    <!--ADD COURSE INFO-->
+    <div class="col-6">
+      <div class="p-3"><app-course-info></app-course-info></div>
+    </div>
+    <!--ADD ARTICLES-->
+    <div class="col-3">
+      <div class="p-3"><app-articles></app-articles></div>
     </div>
   </div>
 </div>
+<!--CONTACT INFORMATION-->
+<app-contact-info></app-contact-info>
