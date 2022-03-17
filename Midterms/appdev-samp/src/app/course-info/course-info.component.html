@@ -1,32 +1,58 @@
-<h3>Course Info</h3>
-<div class="card border-primary mb-3" style="max-width: 40rem;">
-    
-    <div class="card-header">BSCS</div>
-    <div class="card-body">
-      <h5 class="card-title">BACHELOR OF SCIENCE IN COMPUTER SCIENCE</h5>
-      <p class="card-text">In 3 to 5 years after graduation, graduates of the Bachelor of Science in Computer Science are expected to:
-
-        Practice and grow as computing professionals, conducting research and/or leading, solving diverse and unique problems in software design and development processes, maintaining projects in various technical areas of computer science;
-        </p>
-    </div>
+<div class="card border-info mb-3">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h1>APPDEV1</h1>
+<h4>Jonathan-Kedawen Jr.</h4>
+Introduction to Application Development<br>
+<button type="button" class="btn btn-info">Learn More</button>
+<br><br>
+<div class="form-group">
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-secondary" type="button" id="button-addon2">Add New Student</button>
   </div>
-  <div class="card border-secondary mb-3" style="max-width: 40rem;">
-    <div class="card-header">BSIT</div>
-    <div class="card-body">
-      <h5 class="card-title">BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</h5>
-      <p class="card-text">In 3 to 5 years after graduation, graduates of the Bachelor of Science in Information Technology are expected to:
-
-        Be prime designers and implementers of quality computing solutions for real world problems and carry out basic and applied research leading to new innovations in Information Technology (IT) and related interdisciplinary areas;</p>
-    </div>
-  </div>
-  <div class="card border-success mb-3" style="max-width: 40rem;">
-    <div class="card-header">BSCPE</div>
-    <div class="card-body">
-      <h5 class="card-title">BACHELOR OF SCIENCE IN COMPUTER ENGINEERING</h5>
-      <p class="card-text">In 3 to 5 years after graduation, graduates of the Bachelor of Science in Computer Engineering are expected to:
-
-        Demonstrate lifelong learning by generating innovative engineering solutions using significant and scientific research, complex problem-solving, relevant social and personal skills;</p>
-    </div>
-  </div>
-
-    
+</div>
+  <div class="card-body">
+    <h3>Students List:</h3>
+    <table class="table table-active">
+      <thead>
+        <tr>
+          <th scope="col">Course</th>
+          <th scope="col">ID Number</th>
+          <th scope="col">Name</th>
+          <th scope="col">Date Added</th>
+          <th scope="col">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-hover">
+          <th scope="row">{{student.course}}</th>
+          <td>{{student.idnumber}}</td>
+          <td>{{student.name}}</td>
+          <td>{{student.dateadded}}</td>
+          <td><button type="button" class="btn btn-info">View</button>
+            <button type="button" class="btn btn-warning">Edit</button>
+            <button type="button" class="btn btn-danger">Delete</button></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">{{student1.course}}</th>
+          <td>{{student1.idnumber}}</td>
+          <td>{{student1.name}}</td>
+          <td>{{student1.dateadded}}</td>
+          <td>
+            <button type="button" class="btn btn-info">View</button>
+            <button type="button" class="btn btn-warning">Edit</button>
+            <button type="button" class="btn btn-danger">Delete</button></td>
+        </tr>
+        <tr class="table-active">
+          <th scope="row">{{student2.course}}</th>
+          <td>{{student2.idnumber}}</td>
+          <td>{{student2.name}}</td>
+          <td>{{student2.dateadded}}</td>
+          <td><button type="button" class="btn btn-info">View</button>
+            <button type="button" class="btn btn-warning">Edit</button>
+            <button type="button" class="btn btn-danger">Delete</button></td>
+        </tr><div class="card border-info mb-3" style="max-width: 20rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            
